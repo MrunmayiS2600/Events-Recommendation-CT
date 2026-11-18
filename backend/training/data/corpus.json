@@ -1,0 +1,1983 @@
+[
+  {
+    "id": "0f8675a5-4542-482a-a82e-4fc98e638abc",
+    "appName": "F",
+    "packageName": "maps.bi.f",
+    "fileName": "BrainTest2_v1.21.04(268)_30.03.2026_CleverTapAudit (1).apk",
+    "vertical": "gaming",
+    "signalsSummary": "app: F\npackage: maps.bi.f\npermissions: INTERNET, DUMP, VIBRATE, WAKE_LOCK\nsdks: 5$SwitchMap$com$clevertap$unity$CleverTapUnityCallback, 9$SwitchMap$org$tensorflow$lite$support$model$Model$Device, 8()Lcom/google/firebase/sessions/settings/SessionConfigs;, 8(ZLcom/clevertap/android/sdk/Logger;Ljava/lang/String;)V, ACTIVITY_HEIGHT_ADJUSTABLE, AdjustableOrientation, *CLEVERTAP_INAPP_NOTIFICATION_SHOW_CALLBACK, $CLEVERTAP_ONE_TIME_VARIABLES_CHANGED, !CLEVERTAP_ON_INAPP_BUTTON_CLICKED, CLEVERTAP_VARIABLES_CHANGED, 4CLEVERTAP_VARIABLES_CHANGED_AND_NO_DOWNLOADS_PENDING, COMMAND_ADJUST_DEVICE_VOLUME, 'COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS, CleverTapError, CleverTapResponse, CleverTapResponse.java, CleverTapUnityPlugin, CleverTapUnityPlugin.java, \"Codec max resolution adjusted to:, $DISCONTINUITY_REASON_SEEK_ADJUSTMENT\nscreens: touch\nactivities: android.hardware.touchscreen\nfeatures: Ad Review Version -, Bid Response Preview:, Filter did not match:, Filter matched!  match=0x, Filter's target already added, \" VParser: Unsupported media files:, 5 because the browser is not connected to the service., ! bitmap scan : margins are : top, candidate images for upload, filter=, forceCoarseLocation=, images for upload, in creative to ID map, inaccurateLocationsDelayed, into an empty subRangeMap, 4 is not in the redirect tracked activities, ignoring, is not supported for:, locationSettingsIgnored, map is:, map:, registered?, returned null map from loadAll, start MBRewardVideoActivity, - that did not use setReorderingAllowed(true)., ! to ad id to prefetch content map, to adIdToSource map, to adIdToWebviewAddressMap, to map, % to webview to ad id map with ad id:, video URL:, video player:, \"event\":\"feed_over\", \"event\":\"feed_play\", \"label\":\"feed_over\", \"tag\":\"rewarded_video\", \"\"track_name\\\":\\\"endcard_pageview\\\", \"type\":\"video-, $EnumSwitchMapping$0, $$SwitchMap$androidx$work$NetworkType, .$SwitchMap$com$google$common$collect$BoundType\ninferred: Network / API Calls, Haptic Feedback / Notifications, Background Processing\nui_strings: B2hhC, Oag4, OS-N, SPW?TF, E 8,, E A X, F B!, X X O, K&J&, R&R&., W&w&, I'J', L'M', O'P', R'S', U'V', X'Y', V-H-, Q.N., S.N., I-Zj, A j', B j', C A7, E j', E 27, E 37, E JA, E JA8, E JA., E JAX, G j', I j', K j', L j', N D7, P .7, Q j', R j', S j', T j'b, U j', Y j', D!j', G!j', H!j', I!j', J!j', K!j', L!j', M!j', N!j', O!j', P!j', Q!j', R!j', S!j', T!x7, V!j', V!L7, W!j', A&j', B&j', C&j', D&j', G&j', K&j', K&j'S, K&j'c, K&j'd, K&j'z, N&j', O&j', Q&JA, S&OC, U&j', V&j', W&j', X&j', Y&j'\ndeep_links: Lottie://start, Lottie://state, ProgressBar://progress, SwiperView://finish, SwiperView://reloop, SwiperView://slide, fbconnect://cancel, fbconnect://chrome_os_success, fbconnect://success, file://, fmpendcard://, fymraidvideo://, iaadfinishedloading://, mraid://, mraid://close",
+    "signalsRaw": {
+      "appLabel": "F",
+      "packageName": "maps.bi.f",
+      "apkFileName": "apk_1779181181481_BrainTest2_v1.21.04_268__30.03.2026_CleverTapAudit__1_.apk",
+      "activities": [
+        "android.hardware.touchscreen"
+      ],
+      "services": [
+        "android.ext.adservices"
+      ],
+      "permissions": [
+        "",
+        "INTERNET",
+        "DUMP",
+        "VIBRATE",
+        "WAKE_LOCK"
+      ],
+      "deepLinkSchemes": [
+        "Lottie://start",
+        "Lottie://state",
+        "ProgressBar://progress",
+        "SwiperView://finish",
+        "SwiperView://reloop",
+        "SwiperView://slide",
+        "fbconnect://cancel",
+        "fbconnect://chrome_os_success",
+        "fbconnect://success",
+        "file://",
+        "fmpendcard://",
+        "fymraidvideo://",
+        "iaadfinishedloading://",
+        "mraid://",
+        "mraid://close"
+      ],
+      "featureHints": [
+        "Ad Review Version -",
+        "Bid Response Preview:",
+        "Filter did not match:",
+        "Filter matched!  match=0x",
+        "Filter's target already added",
+        "\" VParser: Unsupported media files:",
+        "5 because the browser is not connected to the service.",
+        "! bitmap scan : margins are : top",
+        "candidate images for upload",
+        "filter=",
+        "forceCoarseLocation=",
+        "images for upload",
+        "in creative to ID map",
+        "inaccurateLocationsDelayed",
+        "into an empty subRangeMap",
+        "4 is not in the redirect tracked activities, ignoring",
+        "is not supported for:",
+        "locationSettingsIgnored",
+        "map is:",
+        "map:",
+        "registered?",
+        "returned null map from loadAll",
+        "start MBRewardVideoActivity",
+        "- that did not use setReorderingAllowed(true).",
+        "! to ad id to prefetch content map",
+        "to adIdToSource map",
+        "to adIdToWebviewAddressMap",
+        "to map",
+        "% to webview to ad id map with ad id:",
+        "video URL:",
+        "video player:",
+        "\"event\":\"feed_over\"",
+        "\"event\":\"feed_play\"",
+        "\"label\":\"feed_over\"",
+        "\"tag\":\"rewarded_video\"",
+        "\"\"track_name\\\":\\\"endcard_pageview\\\"",
+        "\"type\":\"video-",
+        "$EnumSwitchMapping$0",
+        "$$SwitchMap$androidx$work$NetworkType",
+        ".$SwitchMap$com$google$common$collect$BoundType",
+        "3$SwitchMap$com$google$protobuf$WireFormat$FieldType",
+        "2$SwitchMap$com$google$protobuf$WireFormat$JavaType",
+        ":$SwitchMap$com$inmobi$ads$InMobiAdRequestStatus$StatusCode",
+        "$border",
+        "$colorFilter",
+        "$filterQuality",
+        "$map",
+        "$offsetMap",
+        "&$r8$lambda$uWe_48lo1ujTXc0gfmAPq_QtOuc",
+        "$velocityTracker"
+      ],
+      "uiStrings": [
+        "B2hhC",
+        "Oag4",
+        "OS-N",
+        "SPW?TF",
+        "E 8,",
+        "E A X",
+        "F B!",
+        "X X O",
+        "K&J&",
+        "R&R&.",
+        "W&w&",
+        "I'J'",
+        "L'M'",
+        "O'P'",
+        "R'S'",
+        "U'V'",
+        "X'Y'",
+        "V-H-",
+        "Q.N.",
+        "S.N.",
+        "I-Zj",
+        "A j'",
+        "B j'",
+        "C A7",
+        "E j'",
+        "E 27",
+        "E 37",
+        "E JA",
+        "E JA8",
+        "E JA.",
+        "E JAX",
+        "G j'",
+        "I j'",
+        "K j'",
+        "L j'",
+        "N D7",
+        "P .7",
+        "Q j'",
+        "R j'",
+        "S j'",
+        "T j'b",
+        "U j'",
+        "Y j'",
+        "D!j'",
+        "G!j'",
+        "H!j'",
+        "I!j'",
+        "J!j'",
+        "K!j'",
+        "L!j'",
+        "M!j'",
+        "N!j'",
+        "O!j'",
+        "P!j'",
+        "Q!j'",
+        "R!j'",
+        "S!j'",
+        "T!x7",
+        "V!j'",
+        "V!L7",
+        "W!j'",
+        "A&j'",
+        "B&j'",
+        "C&j'",
+        "D&j'",
+        "G&j'",
+        "K&j'",
+        "K&j'S",
+        "K&j'c",
+        "K&j'd",
+        "K&j'z",
+        "N&j'",
+        "O&j'",
+        "Q&JA",
+        "S&OC",
+        "U&j'",
+        "V&j'",
+        "W&j'",
+        "X&j'",
+        "Y&j'"
+      ],
+      "sdks": [
+        "5$SwitchMap$com$clevertap$unity$CleverTapUnityCallback",
+        "9$SwitchMap$org$tensorflow$lite$support$model$Model$Device",
+        "8()Lcom/google/firebase/sessions/settings/SessionConfigs;",
+        "8(ZLcom/clevertap/android/sdk/Logger;Ljava/lang/String;)V",
+        "ACTIVITY_HEIGHT_ADJUSTABLE",
+        "AdjustableOrientation",
+        "*CLEVERTAP_INAPP_NOTIFICATION_SHOW_CALLBACK",
+        "$CLEVERTAP_ONE_TIME_VARIABLES_CHANGED",
+        "!CLEVERTAP_ON_INAPP_BUTTON_CLICKED",
+        "CLEVERTAP_VARIABLES_CHANGED",
+        "4CLEVERTAP_VARIABLES_CHANGED_AND_NO_DOWNLOADS_PENDING",
+        "COMMAND_ADJUST_DEVICE_VOLUME",
+        "'COMMAND_ADJUST_DEVICE_VOLUME_WITH_FLAGS",
+        "CleverTapError",
+        "CleverTapResponse",
+        "CleverTapResponse.java",
+        "CleverTapUnityPlugin",
+        "CleverTapUnityPlugin.java",
+        "\"Codec max resolution adjusted to:",
+        "$DISCONTINUITY_REASON_SEEK_ADJUSTMENT"
+      ],
+      "screenNames": [
+        "touch"
+      ],
+      "inferredFeatures": [
+        "Network / API Calls",
+        "Haptic Feedback / Notifications",
+        "Background Processing"
+      ]
+    },
+    "eventSheet": [
+      {
+        "eventName": "App Installed",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "User opens the app for the first time after installation",
+        "suggestedProperties": [
+          "install_source",
+          "platform",
+          "os_version"
+        ],
+        "reason": "New user acquisition baseline"
+      },
+      {
+        "eventName": "Onboarding Started",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "New user enters the onboarding flow on first launch",
+        "suggestedProperties": [
+          "session_id",
+          "device_type",
+          "os_version"
+        ],
+        "reason": "Onboarding funnel entry signal"
+      },
+      {
+        "eventName": "Onboarding Completed",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "User finishes all onboarding steps successfully",
+        "suggestedProperties": [
+          "time_taken_secs",
+          "skipped"
+        ],
+        "reason": "Measures onboarding completion rate"
+      },
+      {
+        "eventName": "Onboarding Skipped",
+        "category": "Activation",
+        "priority": "recommended",
+        "triggerDescription": "User taps Skip during onboarding, exiting before completion",
+        "suggestedProperties": [
+          "step_skipped_at",
+          "time_spent_secs"
+        ],
+        "reason": "Identifies onboarding drop-off step"
+      },
+      {
+        "eventName": "Level Started",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User taps Play to begin a puzzle level",
+        "suggestedProperties": [
+          "level_number",
+          "chapter_name",
+          "level_type"
+        ],
+        "reason": "Core gameplay funnel entry event"
+      },
+      {
+        "eventName": "Level Completed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User correctly solves a puzzle level",
+        "suggestedProperties": [
+          "level_number",
+          "chapter_name",
+          "time_taken_secs",
+          "attempts",
+          "hints_used",
+          "stars_earned"
+        ],
+        "reason": "Primary retention and progression signal"
+      },
+      {
+        "eventName": "Level Failed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User exhausts all attempts without solving the level",
+        "suggestedProperties": [
+          "level_number",
+          "chapter_name",
+          "attempts_made",
+          "hints_used"
+        ],
+        "reason": "Flags difficulty spikes and churn risk"
+      },
+      {
+        "eventName": "Level Restarted",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User taps Restart during an active level attempt",
+        "suggestedProperties": [
+          "level_number",
+          "restart_count"
+        ],
+        "reason": "Signals frustration or deliberate replay"
+      },
+      {
+        "eventName": "Hint Used",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User taps the Hint button inside a puzzle level",
+        "suggestedProperties": [
+          "level_number",
+          "hint_type",
+          "hints_remaining",
+          "is_paid_hint"
+        ],
+        "reason": "Tracks hint consumption and monetization triggers"
+      },
+      {
+        "eventName": "Chapter Unlocked",
+        "category": "Activation",
+        "priority": "recommended",
+        "triggerDescription": "A new chapter becomes accessible to the user",
+        "suggestedProperties": [
+          "chapter_name",
+          "chapter_number",
+          "unlock_method",
+          "levels_in_chapter"
+        ],
+        "reason": "Measures depth of progression through content"
+      },
+      {
+        "eventName": "Daily Challenge Started",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User enters and begins the daily brain challenge",
+        "suggestedProperties": [
+          "challenge_date",
+          "current_streak"
+        ],
+        "reason": "Core daily engagement loop event"
+      },
+      {
+        "eventName": "Daily Challenge Completed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User successfully finishes the daily challenge puzzle",
+        "suggestedProperties": [
+          "challenge_date",
+          "time_taken_secs",
+          "score",
+          "streak_count",
+          "reward_earned"
+        ],
+        "reason": "Daily retention and streak health signal"
+      },
+      {
+        "eventName": "Streak Milestone Reached",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User hits a notable streak threshold (7 / 14 / 30 / 60 days)",
+        "suggestedProperties": [
+          "streak_days",
+          "milestone_badge",
+          "reward_type"
+        ],
+        "reason": "Trigger for celebration moments and loyalty rewards"
+      },
+      {
+        "eventName": "Hint Pack Purchased",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "User successfully completes a hint pack purchase",
+        "suggestedProperties": [
+          "pack_name",
+          "hints_awarded",
+          "price",
+          "currency",
+          "transaction_id"
+        ],
+        "reason": "Consumable revenue event for hints"
+      },
+      {
+        "eventName": "IAP Initiated",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "User taps any Buy or Purchase CTA in the app",
+        "suggestedProperties": [
+          "product_id",
+          "product_name",
+          "price",
+          "currency"
+        ],
+        "reason": "First step of the IAP purchase funnel"
+      },
+      {
+        "eventName": "IAP Completed",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "App store confirms a successful in-app purchase",
+        "suggestedProperties": [
+          "product_id",
+          "product_name",
+          "price",
+          "currency",
+          "transaction_id",
+          "is_first_purchase"
+        ],
+        "reason": "Core revenue event — used for LTV and ROAS"
+      },
+      {
+        "eventName": "IAP Failed",
+        "category": "Revenue",
+        "priority": "recommended",
+        "triggerDescription": "Purchase attempt ends in failure, error, or cancellation",
+        "suggestedProperties": [
+          "product_id",
+          "failure_reason"
+        ],
+        "reason": "Identifies payment friction and lost revenue"
+      },
+      {
+        "eventName": "Ad Impression",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "An ad unit renders and is displayed to the user",
+        "suggestedProperties": [
+          "ad_type",
+          "placement",
+          "ad_network"
+        ],
+        "reason": "Monitors ad fill rate and exposure frequency"
+      },
+      {
+        "eventName": "Ad Clicked",
+        "category": "Revenue",
+        "priority": "recommended",
+        "triggerDescription": "User taps on a displayed advertisement",
+        "suggestedProperties": [
+          "ad_type",
+          "placement",
+          "ad_network"
+        ],
+        "reason": "Tracks ad CTR by placement and format"
+      },
+      {
+        "eventName": "Rewarded Ad Completed",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "User watches a rewarded video ad to completion",
+        "suggestedProperties": [
+          "reward_type",
+          "reward_amount",
+          "placement"
+        ],
+        "reason": "Triggers reward delivery and measures ad engagement"
+      },
+      {
+        "eventName": "Share Initiated",
+        "category": "Referral",
+        "priority": "recommended",
+        "triggerDescription": "User taps the Share button on a result or score screen",
+        "suggestedProperties": [
+          "share_surface",
+          "content_type"
+        ],
+        "reason": "First step of the viral sharing funnel"
+      },
+      {
+        "eventName": "Share Completed",
+        "category": "Referral",
+        "priority": "recommended",
+        "triggerDescription": "User successfully shares content to an external platform",
+        "suggestedProperties": [
+          "share_platform",
+          "content_type"
+        ],
+        "reason": "Measures virality and organic reach"
+      },
+      {
+        "eventName": "Rating Prompt Shown",
+        "category": "Retention",
+        "priority": "nice-to-have",
+        "triggerDescription": "In-app store rating dialog is displayed to the user",
+        "suggestedProperties": [
+          "trigger_condition"
+        ],
+        "reason": "Tracks prompt timing and frequency"
+      },
+      {
+        "eventName": "Rating Submitted",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User submits a star rating via the in-app prompt",
+        "suggestedProperties": [
+          "rating_value",
+          "store"
+        ],
+        "reason": "Store rating signal and NPS proxy"
+      },
+      {
+        "eventName": "Notification Permission Requested",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "OS-level push permission dialog is shown to the user",
+        "suggestedProperties": [
+          "trigger_point"
+        ],
+        "reason": "Critical for measuring opt-in funnel"
+      },
+      {
+        "eventName": "Notification Permission Granted",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "User taps Allow on the push notification permission dialog",
+        "suggestedProperties": [
+          "trigger_point"
+        ],
+        "reason": "Determines reachable push audience size"
+      },
+      {
+        "eventName": "Notification Permission Denied",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "User taps Deny on the push notification permission dialog",
+        "suggestedProperties": [
+          "trigger_point"
+        ],
+        "reason": "Identifies users unreachable via push"
+      },
+      {
+        "eventName": "Settings Opened",
+        "category": "Retention",
+        "priority": "nice-to-have",
+        "triggerDescription": "User opens the Settings screen from any surface",
+        "suggestedProperties": [
+          "source_screen"
+        ],
+        "reason": "Feature discoverability and UX usage"
+      },
+      {
+        "eventName": "Sound Toggled",
+        "category": "Retention",
+        "priority": "nice-to-have",
+        "triggerDescription": "User turns sound effects or background music on or off",
+        "suggestedProperties": [
+          "sound_type",
+          "new_state"
+        ],
+        "reason": "Audio preference signal for personalisation"
+      },
+      {
+        "eventName": "Language Changed",
+        "category": "Activation",
+        "priority": "nice-to-have",
+        "triggerDescription": "User selects a different display language in the app",
+        "suggestedProperties": [
+          "previous_language",
+          "new_language"
+        ],
+        "reason": "Localisation insight and market segmentation"
+      }
+    ],
+    "createdAt": "2026-05-19T08:59:43.333Z",
+    "schemaVersion": 1
+  },
+  {
+    "id": "d802731e-4063-42bf-b059-3a4a55df52fb",
+    "appName": "Com",
+    "packageName": "m.facebook.com",
+    "fileName": "com-instagram-android-382105924-73450908-47f35218cbad7023ef475d2fed2a88f5.apk",
+    "vertical": null,
+    "signalsSummary": "app: Com\npackage: m.facebook.com\npermissions: BLUETOOTH, CALL_PHONE, CAMERA, DUMP, GET_ACCOUNTS, INTERNET, READ_CALL_LOG, READ_CONTACTS, READ_PROFILE, RECORD_AUDIO, USE_BIOMETRIC, VIBRATE, WAKE_LOCK\nsdks: \"com.facebook.versioncontrol.branch, %com.google.firebase.INSTANCE_ID_EVENT, #com.google.firebase.MESSAGING_EVENT, 8com.google.firebase.components.ComponentDiscoveryService, 1com.google.firebase.components.ComponentRegistrar, 2com.google.firebase.iid.FirebaseInstanceIdReceiver, 6com.google.firebase.messaging.FirebaseMessagingService, \"name\": \"arservicesforhairsegmentation\",, \"name\": \"arservicesforpersonsegmentation\",, !com.facebook.fbwebrtc.RingPayload, 2com.facebook.langtech.audio.classifiers.LIDSegment, 2com.facebook.langtech.audio.classifiers.VADSegment, segmentAggregation, segments, singleSegment, useFixedSegmentForFinalization, bkspAdjustScore, :com.facebook.messenger.assistant.thrift.AutoCaptureSegment, segmentId, // adjust levels\nfeatures: installLocation, supportsRtl, supportsPictureInPicture, /ig/login_via/app/, /login_via/app/, /spotify-login-callback, /unified/login_via/app/, NotificationService, NotificationServiceV2, achievements_detail_bottom_sheet, ads_payments, \"ads_payments_prepay_payment_status, ads_product_page, ai_character_create_profile, !android.hardware.camera.autofocus, !android.intent.category.BROWSABLE, android.intent.category.DEFAULT, android.intent.category.LAUNCHER, 0android.intent.category.NOTIFICATION_PREFERENCES, 'android.permission.ACCESS_FINE_LOCATION, (android.permission.ACCESS_MEDIA_LOCATION, 'android.permission.CAPTURE_VIDEO_OUTPUT, ,android.permission.FOREGROUND_SERVICE_CAMERA, .android.permission.FOREGROUND_SERVICE_LOCATION, (android.permission.MODIFY_AUDIO_SETTINGS, %android.permission.POST_NOTIFICATIONS, #android.permission.READ_MEDIA_VIDEO, &android.splashscreen.exception_opt_out, #android.support.FILE_PROVIDER_PATHS, 3android.support.customtabs.action.CustomTabsService, android.supports_size_changes, 0androidx.profileinstaller.ProfileInstallReceiver, 5androidx.profileinstaller.ProfileInstallerInitializer, 4androidx.profileinstaller.action.BENCHMARK_OPERATION, 0androidx.profileinstaller.action.INSTALL_PROFILE, -androidx.profileinstaller.action.SAVE_PROFILE, *androidx.profileinstaller.action.SKIP_FILE, aradscamera, birthday_effects_settings, birthday_visibility_settings\ninferred: Bluetooth / IoT / BLE, Phone / Click-to-Call, Camera / Photo / AR / QR Scan, Network / API Calls, Contacts / Social Graph, Voice / Audio Recording, Biometric Login (Fingerprint/Face), Haptic Feedback / Notifications, Background Processing\nui_strings: IgCommonDeeplinkActivity, MASTER, MessagingService, Meta Horizon, NotificationService, NotificationServiceV2, WYTv, M14b, AxXI, J'B3, G96j, DuMN, QBQr, Ttee, GNR4, D9dbZ, XN9S, PY!c, LSS8, I?z', Im7y, COCm, GD1?, X9tpQ, Bysp, I26c, XCrY, ONyny, DT3d, LtNMWZ, Gj.HT, RKRw, Gc,.N, EcCQ, NnG!, D'415, Kj'RT, H&BOL, Jb,In, F.YGs, Zb.p, T77P, Gf1Z, H&n3io, VizV, GJ3F, DqNI, TIu:, H9LT, K1yA, A0xN, NmRx, Cy&I, RXqGG, X,'x, DeMIK, MS&v, CpXu, TH!U, DhD., T,eH, P4DJ, Lim&, Y6O3, S8'j, Y825-BE8, K6Jk, QTeB, Ujdv, HDB!, ZzhiSF, Qgeb, QSV1, ZoLw, LbnDcA, W4EB, Dv2h, Bpplz, N5PaU, IKRg\ndeep_links: jumi://)., llningar://)., browser-settings://",
+    "signalsRaw": {
+      "appLabel": "Com",
+      "packageName": "m.facebook.com",
+      "apkFileName": "apk_1779181350794_com-instagram-android-382105924-73450908-47f35218cbad7023ef475d2fed2a88f5.apk",
+      "activities": [],
+      "services": [
+        "android.ext.adservices",
+        "com.facebook.appmanager",
+        "com.facebook.services"
+      ],
+      "permissions": [
+        "BLUETOOTH",
+        "CALL_PHONE",
+        "CAMERA",
+        "DUMP",
+        "GET_ACCOUNTS",
+        "INTERNET",
+        "READ_CALL_LOG",
+        "READ_CONTACTS",
+        "READ_PROFILE",
+        "RECORD_AUDIO",
+        "USE_BIOMETRIC",
+        "VIBRATE",
+        "WAKE_LOCK"
+      ],
+      "deepLinkSchemes": [
+        "jumi://).",
+        "llningar://).",
+        "browser-settings://"
+      ],
+      "featureHints": [
+        "installLocation",
+        "supportsRtl",
+        "supportsPictureInPicture",
+        "/ig/login_via/app/",
+        "/login_via/app/",
+        "/spotify-login-callback",
+        "/unified/login_via/app/",
+        "NotificationService",
+        "NotificationServiceV2",
+        "achievements_detail_bottom_sheet",
+        "ads_payments",
+        "\"ads_payments_prepay_payment_status",
+        "ads_product_page",
+        "ai_character_create_profile",
+        "!android.hardware.camera.autofocus",
+        "!android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT",
+        "android.intent.category.LAUNCHER",
+        "0android.intent.category.NOTIFICATION_PREFERENCES",
+        "'android.permission.ACCESS_FINE_LOCATION",
+        "(android.permission.ACCESS_MEDIA_LOCATION",
+        "'android.permission.CAPTURE_VIDEO_OUTPUT",
+        ",android.permission.FOREGROUND_SERVICE_CAMERA",
+        ".android.permission.FOREGROUND_SERVICE_LOCATION",
+        "(android.permission.MODIFY_AUDIO_SETTINGS",
+        "%android.permission.POST_NOTIFICATIONS",
+        "#android.permission.READ_MEDIA_VIDEO",
+        "&android.splashscreen.exception_opt_out",
+        "#android.support.FILE_PROVIDER_PATHS",
+        "3android.support.customtabs.action.CustomTabsService",
+        "android.supports_size_changes",
+        "0androidx.profileinstaller.ProfileInstallReceiver",
+        "5androidx.profileinstaller.ProfileInstallerInitializer",
+        "4androidx.profileinstaller.action.BENCHMARK_OPERATION",
+        "0androidx.profileinstaller.action.INSTALL_PROFILE",
+        "-androidx.profileinstaller.action.SAVE_PROFILE",
+        "*androidx.profileinstaller.action.SKIP_FILE",
+        "aradscamera",
+        "birthday_effects_settings",
+        "birthday_visibility_settings",
+        "bizwallet",
+        "bloks_leave_review",
+        "bloks_order_receipt",
+        "business_chat",
+        "business_order",
+        "business_profile_calling",
+        "businessreferrals",
+        "bwp_login",
+        "call_settings",
+        "camera_feed"
+      ],
+      "uiStrings": [
+        "IgCommonDeeplinkActivity",
+        "MASTER",
+        "MessagingService",
+        "Meta Horizon",
+        "NotificationService",
+        "NotificationServiceV2",
+        "WYTv",
+        "M14b",
+        "AxXI",
+        "J'B3",
+        "G96j",
+        "DuMN",
+        "QBQr",
+        "Ttee",
+        "GNR4",
+        "D9dbZ",
+        "XN9S",
+        "PY!c",
+        "LSS8",
+        "I?z'",
+        "Im7y",
+        "COCm",
+        "GD1?",
+        "X9tpQ",
+        "Bysp",
+        "I26c",
+        "XCrY",
+        "ONyny",
+        "DT3d",
+        "LtNMWZ",
+        "Gj.HT",
+        "RKRw",
+        "Gc,.N",
+        "EcCQ",
+        "NnG!",
+        "D'415",
+        "Kj'RT",
+        "H&BOL",
+        "Jb,In",
+        "F.YGs",
+        "Zb.p",
+        "T77P",
+        "Gf1Z",
+        "H&n3io",
+        "VizV",
+        "GJ3F",
+        "DqNI",
+        "TIu:",
+        "H9LT",
+        "K1yA",
+        "A0xN",
+        "NmRx",
+        "Cy&I",
+        "RXqGG",
+        "X,'x",
+        "DeMIK",
+        "MS&v",
+        "CpXu",
+        "TH!U",
+        "DhD.",
+        "T,eH",
+        "P4DJ",
+        "Lim&",
+        "Y6O3",
+        "S8'j",
+        "Y825-BE8",
+        "K6Jk",
+        "QTeB",
+        "Ujdv",
+        "HDB!",
+        "ZzhiSF",
+        "Qgeb",
+        "QSV1",
+        "ZoLw",
+        "LbnDcA",
+        "W4EB",
+        "Dv2h",
+        "Bpplz",
+        "N5PaU",
+        "IKRg"
+      ],
+      "sdks": [
+        "\"com.facebook.versioncontrol.branch",
+        "%com.google.firebase.INSTANCE_ID_EVENT",
+        "#com.google.firebase.MESSAGING_EVENT",
+        "8com.google.firebase.components.ComponentDiscoveryService",
+        "1com.google.firebase.components.ComponentRegistrar",
+        "2com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "6com.google.firebase.messaging.FirebaseMessagingService",
+        "\"name\": \"arservicesforhairsegmentation\",",
+        "\"name\": \"arservicesforpersonsegmentation\",",
+        "!com.facebook.fbwebrtc.RingPayload",
+        "2com.facebook.langtech.audio.classifiers.LIDSegment",
+        "2com.facebook.langtech.audio.classifiers.VADSegment",
+        "segmentAggregation",
+        "segments",
+        "singleSegment",
+        "useFixedSegmentForFinalization",
+        "bkspAdjustScore",
+        ":com.facebook.messenger.assistant.thrift.AutoCaptureSegment",
+        "segmentId",
+        "// adjust levels"
+      ],
+      "screenNames": [],
+      "inferredFeatures": [
+        "Bluetooth / IoT / BLE",
+        "Phone / Click-to-Call",
+        "Camera / Photo / AR / QR Scan",
+        "Network / API Calls",
+        "Contacts / Social Graph",
+        "Voice / Audio Recording",
+        "Biometric Login (Fingerprint/Face)",
+        "Haptic Feedback / Notifications",
+        "Background Processing"
+      ]
+    },
+    "eventSheet": [
+      {
+        "eventName": "App Installed",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "User opens Instagram for the first time after installation",
+        "suggestedProperties": [
+          "install_source",
+          "platform",
+          "os_version"
+        ],
+        "reason": "New user acquisition baseline"
+      },
+      {
+        "eventName": "Sign Up Started",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "User taps Create New Account on the login screen",
+        "suggestedProperties": [
+          "signup_method",
+          "platform"
+        ],
+        "reason": "Measures top of registration funnel"
+      },
+      {
+        "eventName": "Sign Up Completed",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "User successfully creates a new Instagram account",
+        "suggestedProperties": [
+          "signup_method",
+          "time_taken_secs",
+          "referral_source"
+        ],
+        "reason": "Core acquisition event for new user growth"
+      },
+      {
+        "eventName": "Login Completed",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "User successfully logs into an existing account",
+        "suggestedProperties": [
+          "login_method",
+          "platform",
+          "is_returning_user"
+        ],
+        "reason": "Session start and identity resolution signal"
+      },
+      {
+        "eventName": "Onboarding Completed",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "User finishes profile setup and interest selection after sign up",
+        "suggestedProperties": [
+          "interests_selected",
+          "profile_photo_added",
+          "time_taken_secs"
+        ],
+        "reason": "Measures onboarding quality and setup depth"
+      },
+      {
+        "eventName": "Profile Photo Added",
+        "category": "Activation",
+        "priority": "recommended",
+        "triggerDescription": "User uploads or takes a profile picture during or after onboarding",
+        "suggestedProperties": [
+          "source",
+          "method"
+        ],
+        "reason": "Profile completeness signal linked to retention"
+      },
+      {
+        "eventName": "Follow Initiated",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "User taps the Follow button on any account",
+        "suggestedProperties": [
+          "followed_user_id",
+          "followed_user_type",
+          "source_surface"
+        ],
+        "reason": "Core social graph building event"
+      },
+      {
+        "eventName": "Follow Completed",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "Follow action is confirmed for a public or private account",
+        "suggestedProperties": [
+          "followed_user_id",
+          "followed_user_type",
+          "account_type"
+        ],
+        "reason": "Tracks successful connections — key activation metric"
+      },
+      {
+        "eventName": "Unfollow Completed",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User unfollows an account",
+        "suggestedProperties": [
+          "unfollowed_user_type",
+          "source_surface"
+        ],
+        "reason": "Signals disengagement or content dissatisfaction"
+      },
+      {
+        "eventName": "Feed Viewed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User lands on and scrolls the home feed",
+        "suggestedProperties": [
+          "session_id",
+          "feed_type",
+          "posts_seen_count"
+        ],
+        "reason": "Primary daily engagement signal"
+      },
+      {
+        "eventName": "Post Viewed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User pauses on a post in any feed for more than 1 second",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "creator_id",
+          "source_feed",
+          "view_duration_secs"
+        ],
+        "reason": "Content consumption and ranking feedback signal"
+      },
+      {
+        "eventName": "Post Liked",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User taps the heart on any post",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "creator_id",
+          "source_feed"
+        ],
+        "reason": "Engagement signal used for feed ranking"
+      },
+      {
+        "eventName": "Post Saved",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User taps the bookmark icon on a post",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "creator_id",
+          "collection_name"
+        ],
+        "reason": "High-intent engagement — strong retention indicator"
+      },
+      {
+        "eventName": "Post Shared",
+        "category": "Referral",
+        "priority": "must-have",
+        "triggerDescription": "User taps the share icon on a post",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "share_destination",
+          "creator_id"
+        ],
+        "reason": "Viral distribution and reach signal"
+      },
+      {
+        "eventName": "Post Commented",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User submits a comment on a post",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "creator_id",
+          "comment_length_chars"
+        ],
+        "reason": "Deep engagement signal correlated with retention"
+      },
+      {
+        "eventName": "Comment Liked",
+        "category": "Retention",
+        "priority": "nice-to-have",
+        "triggerDescription": "User likes a comment on a post",
+        "suggestedProperties": [
+          "post_id",
+          "comment_id",
+          "creator_id"
+        ],
+        "reason": "Secondary engagement depth signal"
+      },
+      {
+        "eventName": "Post Created",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User successfully publishes a new post to their profile or feed",
+        "suggestedProperties": [
+          "post_type",
+          "has_caption",
+          "hashtag_count",
+          "location_tagged",
+          "filter_used"
+        ],
+        "reason": "Creator activation and content supply signal"
+      },
+      {
+        "eventName": "Story Viewed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User watches one or more frames of a story",
+        "suggestedProperties": [
+          "story_id",
+          "creator_id",
+          "view_duration_secs",
+          "completed"
+        ],
+        "reason": "Stories consumption — key daily retention loop"
+      },
+      {
+        "eventName": "Story Posted",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User publishes a new story",
+        "suggestedProperties": [
+          "story_type",
+          "has_sticker",
+          "has_music",
+          "has_text",
+          "has_location"
+        ],
+        "reason": "Creator activity signal for stories supply health"
+      },
+      {
+        "eventName": "Story Replied",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User sends a reply to a story via DM",
+        "suggestedProperties": [
+          "story_id",
+          "creator_id",
+          "reply_type"
+        ],
+        "reason": "Measures stories-to-DM conversion and engagement depth"
+      },
+      {
+        "eventName": "Reel Viewed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User watches a Reel in the Reels tab or feed",
+        "suggestedProperties": [
+          "reel_id",
+          "creator_id",
+          "view_duration_secs",
+          "completed",
+          "source_surface"
+        ],
+        "reason": "Video content consumption and ranking signal"
+      },
+      {
+        "eventName": "Reel Liked",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User likes a Reel",
+        "suggestedProperties": [
+          "reel_id",
+          "creator_id",
+          "source_surface"
+        ],
+        "reason": "Engagement signal for Reels discovery algorithm"
+      },
+      {
+        "eventName": "Reel Shared",
+        "category": "Referral",
+        "priority": "recommended",
+        "triggerDescription": "User shares a Reel to a story or via DM",
+        "suggestedProperties": [
+          "reel_id",
+          "creator_id",
+          "share_destination"
+        ],
+        "reason": "Reels virality and organic reach signal"
+      },
+      {
+        "eventName": "Reel Created",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User successfully publishes a new Reel",
+        "suggestedProperties": [
+          "duration_secs",
+          "has_audio",
+          "has_text",
+          "has_effects",
+          "draft_used"
+        ],
+        "reason": "Creator engagement in video format — supply signal"
+      },
+      {
+        "eventName": "Search Performed",
+        "category": "Activation",
+        "priority": "recommended",
+        "triggerDescription": "User submits a search query in the Explore or search bar",
+        "suggestedProperties": [
+          "query_length",
+          "result_type",
+          "result_count"
+        ],
+        "reason": "Discovery intent signal — used for content and user matching"
+      },
+      {
+        "eventName": "Explore Opened",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User navigates to the Explore tab",
+        "suggestedProperties": [
+          "session_id",
+          "source_surface"
+        ],
+        "reason": "Measures passive discovery behavior"
+      },
+      {
+        "eventName": "DM Sent",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User sends a direct message to one or more recipients",
+        "suggestedProperties": [
+          "message_type",
+          "recipient_type",
+          "is_group",
+          "has_media"
+        ],
+        "reason": "Core social connection signal — strong retention predictor"
+      },
+      {
+        "eventName": "DM Thread Opened",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User opens an existing or new DM conversation thread",
+        "suggestedProperties": [
+          "thread_type",
+          "is_new_thread",
+          "recipient_type"
+        ],
+        "reason": "Measures DM engagement and inbox activity"
+      },
+      {
+        "eventName": "Notification Received",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "A push notification is delivered to the user's device",
+        "suggestedProperties": [
+          "notification_type",
+          "campaign_id",
+          "is_personalized"
+        ],
+        "reason": "Reachability and delivery health signal"
+      },
+      {
+        "eventName": "Notification Tapped",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User taps a push notification to open the app",
+        "suggestedProperties": [
+          "notification_type",
+          "campaign_id",
+          "deep_link_destination"
+        ],
+        "reason": "Re-engagement attribution signal"
+      },
+      {
+        "eventName": "Ad Impression",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "A sponsored post or ad unit is displayed in the user's feed or stories",
+        "suggestedProperties": [
+          "ad_id",
+          "ad_format",
+          "placement",
+          "advertiser_id"
+        ],
+        "reason": "Ad delivery and inventory fill tracking"
+      },
+      {
+        "eventName": "Ad Clicked",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "User taps on an advertiser's ad unit",
+        "suggestedProperties": [
+          "ad_id",
+          "ad_format",
+          "placement",
+          "advertiser_id"
+        ],
+        "reason": "Ad CTR signal for campaign performance and billing"
+      },
+      {
+        "eventName": "Ad Skipped",
+        "category": "Revenue",
+        "priority": "recommended",
+        "triggerDescription": "User skips or swipes past an ad unit without engaging",
+        "suggestedProperties": [
+          "ad_id",
+          "ad_format",
+          "placement",
+          "time_seen_secs"
+        ],
+        "reason": "Ad fatigue and relevance signal"
+      },
+      {
+        "eventName": "Shopping Tag Tapped",
+        "category": "Revenue",
+        "priority": "recommended",
+        "triggerDescription": "User taps a product tag on a shoppable post",
+        "suggestedProperties": [
+          "post_id",
+          "product_id",
+          "creator_id",
+          "product_price"
+        ],
+        "reason": "Top-of-funnel signal for Instagram Shopping conversion"
+      },
+      {
+        "eventName": "Product Page Viewed",
+        "category": "Revenue",
+        "priority": "recommended",
+        "triggerDescription": "User views a product detail page via a shopping tag",
+        "suggestedProperties": [
+          "product_id",
+          "product_name",
+          "price",
+          "currency",
+          "creator_id"
+        ],
+        "reason": "Purchase intent signal within in-app shopping"
+      },
+      {
+        "eventName": "Checkout Started",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "User initiates the checkout flow for a tagged product",
+        "suggestedProperties": [
+          "product_id",
+          "product_name",
+          "price",
+          "currency"
+        ],
+        "reason": "Purchase funnel entry — critical revenue event"
+      },
+      {
+        "eventName": "Purchase Completed",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "User successfully completes a purchase via Instagram Shopping",
+        "suggestedProperties": [
+          "product_id",
+          "product_name",
+          "price",
+          "currency",
+          "transaction_id"
+        ],
+        "reason": "Core in-app commerce revenue event"
+      },
+      {
+        "eventName": "Account Settings Opened",
+        "category": "Retention",
+        "priority": "nice-to-have",
+        "triggerDescription": "User opens the Account Settings screen",
+        "suggestedProperties": [
+          "source_surface"
+        ],
+        "reason": "Feature discoverability and privacy-related behaviour signal"
+      },
+      {
+        "eventName": "Notification Settings Changed",
+        "category": "Retention",
+        "priority": "nice-to-have",
+        "triggerDescription": "User modifies notification preferences in settings",
+        "suggestedProperties": [
+          "notification_type",
+          "new_state"
+        ],
+        "reason": "Measures opt-out risk and notification preference shifts"
+      },
+      {
+        "eventName": "Account Deactivated",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User initiates account deactivation from settings",
+        "suggestedProperties": [
+          "reason_selected",
+          "time_since_signup_days"
+        ],
+        "reason": "Critical churn signal — triggers win-back campaign trigger"
+      }
+    ],
+    "createdAt": "2026-05-19T09:02:31.845Z",
+    "schemaVersion": 1
+  },
+  {
+    "id": "cec1ad0e-1e53-4067-af43-f11d68365a0d",
+    "appName": "Com",
+    "packageName": "m.facebook.com",
+    "fileName": "com-instagram-android-382105924-73450908-47f35218cbad7023ef475d2fed2a88f5.apk",
+    "vertical": "social",
+    "signalsSummary": "app: Com\npackage: m.facebook.com\npermissions: BLUETOOTH, CALL_PHONE, CAMERA, DUMP, GET_ACCOUNTS, INTERNET, READ_CALL_LOG, READ_CONTACTS, READ_PROFILE, RECORD_AUDIO, USE_BIOMETRIC, VIBRATE, WAKE_LOCK\nsdks: \"com.facebook.versioncontrol.branch, %com.google.firebase.INSTANCE_ID_EVENT, #com.google.firebase.MESSAGING_EVENT, 8com.google.firebase.components.ComponentDiscoveryService, 1com.google.firebase.components.ComponentRegistrar, 2com.google.firebase.iid.FirebaseInstanceIdReceiver, 6com.google.firebase.messaging.FirebaseMessagingService, \"name\": \"arservicesforhairsegmentation\",, \"name\": \"arservicesforpersonsegmentation\",, !com.facebook.fbwebrtc.RingPayload, 2com.facebook.langtech.audio.classifiers.LIDSegment, 2com.facebook.langtech.audio.classifiers.VADSegment, segmentAggregation, segments, singleSegment, useFixedSegmentForFinalization, bkspAdjustScore, :com.facebook.messenger.assistant.thrift.AutoCaptureSegment, segmentId, // adjust levels\nfeatures: installLocation, supportsRtl, supportsPictureInPicture, /ig/login_via/app/, /login_via/app/, /spotify-login-callback, /unified/login_via/app/, NotificationService, NotificationServiceV2, achievements_detail_bottom_sheet, ads_payments, \"ads_payments_prepay_payment_status, ads_product_page, ai_character_create_profile, !android.hardware.camera.autofocus, !android.intent.category.BROWSABLE, android.intent.category.DEFAULT, android.intent.category.LAUNCHER, 0android.intent.category.NOTIFICATION_PREFERENCES, 'android.permission.ACCESS_FINE_LOCATION, (android.permission.ACCESS_MEDIA_LOCATION, 'android.permission.CAPTURE_VIDEO_OUTPUT, ,android.permission.FOREGROUND_SERVICE_CAMERA, .android.permission.FOREGROUND_SERVICE_LOCATION, (android.permission.MODIFY_AUDIO_SETTINGS, %android.permission.POST_NOTIFICATIONS, #android.permission.READ_MEDIA_VIDEO, &android.splashscreen.exception_opt_out, #android.support.FILE_PROVIDER_PATHS, 3android.support.customtabs.action.CustomTabsService, android.supports_size_changes, 0androidx.profileinstaller.ProfileInstallReceiver, 5androidx.profileinstaller.ProfileInstallerInitializer, 4androidx.profileinstaller.action.BENCHMARK_OPERATION, 0androidx.profileinstaller.action.INSTALL_PROFILE, -androidx.profileinstaller.action.SAVE_PROFILE, *androidx.profileinstaller.action.SKIP_FILE, aradscamera, birthday_effects_settings, birthday_visibility_settings\ninferred: Bluetooth / IoT / BLE, Phone / Click-to-Call, Camera / Photo / AR / QR Scan, Network / API Calls, Contacts / Social Graph, Voice / Audio Recording, Biometric Login (Fingerprint/Face), Haptic Feedback / Notifications, Background Processing\nui_strings: IgCommonDeeplinkActivity, MASTER, MessagingService, Meta Horizon, NotificationService, NotificationServiceV2, WYTv, M14b, AxXI, J'B3, G96j, DuMN, QBQr, Ttee, GNR4, D9dbZ, XN9S, PY!c, LSS8, I?z', Im7y, COCm, GD1?, X9tpQ, Bysp, I26c, XCrY, ONyny, DT3d, LtNMWZ, Gj.HT, RKRw, Gc,.N, EcCQ, NnG!, D'415, Kj'RT, H&BOL, Jb,In, F.YGs, Zb.p, T77P, Gf1Z, H&n3io, VizV, GJ3F, DqNI, TIu:, H9LT, K1yA, A0xN, NmRx, Cy&I, RXqGG, X,'x, DeMIK, MS&v, CpXu, TH!U, DhD., T,eH, P4DJ, Lim&, Y6O3, S8'j, Y825-BE8, K6Jk, QTeB, Ujdv, HDB!, ZzhiSF, Qgeb, QSV1, ZoLw, LbnDcA, W4EB, Dv2h, Bpplz, N5PaU, IKRg\ndeep_links: jumi://)., llningar://)., browser-settings://",
+    "signalsRaw": {
+      "appLabel": "Com",
+      "packageName": "m.facebook.com",
+      "apkFileName": "apk_1779192401201_com-instagram-android-382105924-73450908-47f35218cbad7023ef475d2fed2a88f5.apk",
+      "activities": [],
+      "services": [
+        "android.ext.adservices",
+        "com.facebook.appmanager",
+        "com.facebook.services"
+      ],
+      "permissions": [
+        "BLUETOOTH",
+        "CALL_PHONE",
+        "CAMERA",
+        "DUMP",
+        "GET_ACCOUNTS",
+        "INTERNET",
+        "READ_CALL_LOG",
+        "READ_CONTACTS",
+        "READ_PROFILE",
+        "RECORD_AUDIO",
+        "USE_BIOMETRIC",
+        "VIBRATE",
+        "WAKE_LOCK"
+      ],
+      "deepLinkSchemes": [
+        "jumi://).",
+        "llningar://).",
+        "browser-settings://"
+      ],
+      "featureHints": [
+        "installLocation",
+        "supportsRtl",
+        "supportsPictureInPicture",
+        "/ig/login_via/app/",
+        "/login_via/app/",
+        "/spotify-login-callback",
+        "/unified/login_via/app/",
+        "NotificationService",
+        "NotificationServiceV2",
+        "achievements_detail_bottom_sheet",
+        "ads_payments",
+        "\"ads_payments_prepay_payment_status",
+        "ads_product_page",
+        "ai_character_create_profile",
+        "!android.hardware.camera.autofocus",
+        "!android.intent.category.BROWSABLE",
+        "android.intent.category.DEFAULT",
+        "android.intent.category.LAUNCHER",
+        "0android.intent.category.NOTIFICATION_PREFERENCES",
+        "'android.permission.ACCESS_FINE_LOCATION",
+        "(android.permission.ACCESS_MEDIA_LOCATION",
+        "'android.permission.CAPTURE_VIDEO_OUTPUT",
+        ",android.permission.FOREGROUND_SERVICE_CAMERA",
+        ".android.permission.FOREGROUND_SERVICE_LOCATION",
+        "(android.permission.MODIFY_AUDIO_SETTINGS",
+        "%android.permission.POST_NOTIFICATIONS",
+        "#android.permission.READ_MEDIA_VIDEO",
+        "&android.splashscreen.exception_opt_out",
+        "#android.support.FILE_PROVIDER_PATHS",
+        "3android.support.customtabs.action.CustomTabsService",
+        "android.supports_size_changes",
+        "0androidx.profileinstaller.ProfileInstallReceiver",
+        "5androidx.profileinstaller.ProfileInstallerInitializer",
+        "4androidx.profileinstaller.action.BENCHMARK_OPERATION",
+        "0androidx.profileinstaller.action.INSTALL_PROFILE",
+        "-androidx.profileinstaller.action.SAVE_PROFILE",
+        "*androidx.profileinstaller.action.SKIP_FILE",
+        "aradscamera",
+        "birthday_effects_settings",
+        "birthday_visibility_settings",
+        "bizwallet",
+        "bloks_leave_review",
+        "bloks_order_receipt",
+        "business_chat",
+        "business_order",
+        "business_profile_calling",
+        "businessreferrals",
+        "bwp_login",
+        "call_settings",
+        "camera_feed"
+      ],
+      "uiStrings": [
+        "IgCommonDeeplinkActivity",
+        "MASTER",
+        "MessagingService",
+        "Meta Horizon",
+        "NotificationService",
+        "NotificationServiceV2",
+        "WYTv",
+        "M14b",
+        "AxXI",
+        "J'B3",
+        "G96j",
+        "DuMN",
+        "QBQr",
+        "Ttee",
+        "GNR4",
+        "D9dbZ",
+        "XN9S",
+        "PY!c",
+        "LSS8",
+        "I?z'",
+        "Im7y",
+        "COCm",
+        "GD1?",
+        "X9tpQ",
+        "Bysp",
+        "I26c",
+        "XCrY",
+        "ONyny",
+        "DT3d",
+        "LtNMWZ",
+        "Gj.HT",
+        "RKRw",
+        "Gc,.N",
+        "EcCQ",
+        "NnG!",
+        "D'415",
+        "Kj'RT",
+        "H&BOL",
+        "Jb,In",
+        "F.YGs",
+        "Zb.p",
+        "T77P",
+        "Gf1Z",
+        "H&n3io",
+        "VizV",
+        "GJ3F",
+        "DqNI",
+        "TIu:",
+        "H9LT",
+        "K1yA",
+        "A0xN",
+        "NmRx",
+        "Cy&I",
+        "RXqGG",
+        "X,'x",
+        "DeMIK",
+        "MS&v",
+        "CpXu",
+        "TH!U",
+        "DhD.",
+        "T,eH",
+        "P4DJ",
+        "Lim&",
+        "Y6O3",
+        "S8'j",
+        "Y825-BE8",
+        "K6Jk",
+        "QTeB",
+        "Ujdv",
+        "HDB!",
+        "ZzhiSF",
+        "Qgeb",
+        "QSV1",
+        "ZoLw",
+        "LbnDcA",
+        "W4EB",
+        "Dv2h",
+        "Bpplz",
+        "N5PaU",
+        "IKRg"
+      ],
+      "sdks": [
+        "\"com.facebook.versioncontrol.branch",
+        "%com.google.firebase.INSTANCE_ID_EVENT",
+        "#com.google.firebase.MESSAGING_EVENT",
+        "8com.google.firebase.components.ComponentDiscoveryService",
+        "1com.google.firebase.components.ComponentRegistrar",
+        "2com.google.firebase.iid.FirebaseInstanceIdReceiver",
+        "6com.google.firebase.messaging.FirebaseMessagingService",
+        "\"name\": \"arservicesforhairsegmentation\",",
+        "\"name\": \"arservicesforpersonsegmentation\",",
+        "!com.facebook.fbwebrtc.RingPayload",
+        "2com.facebook.langtech.audio.classifiers.LIDSegment",
+        "2com.facebook.langtech.audio.classifiers.VADSegment",
+        "segmentAggregation",
+        "segments",
+        "singleSegment",
+        "useFixedSegmentForFinalization",
+        "bkspAdjustScore",
+        ":com.facebook.messenger.assistant.thrift.AutoCaptureSegment",
+        "segmentId",
+        "// adjust levels"
+      ],
+      "screenNames": [],
+      "inferredFeatures": [
+        "Bluetooth / IoT / BLE",
+        "Phone / Click-to-Call",
+        "Camera / Photo / AR / QR Scan",
+        "Network / API Calls",
+        "Contacts / Social Graph",
+        "Voice / Audio Recording",
+        "Biometric Login (Fingerprint/Face)",
+        "Haptic Feedback / Notifications",
+        "Background Processing"
+      ]
+    },
+    "eventSheet": [
+      {
+        "eventName": "App Installed",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "User opens Instagram for the first time after installation",
+        "suggestedProperties": [
+          "install_source",
+          "platform",
+          "os_version"
+        ],
+        "reason": "New user acquisition baseline"
+      },
+      {
+        "eventName": "Sign Up Started",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "User taps Create New Account on the login screen",
+        "suggestedProperties": [
+          "signup_method",
+          "platform"
+        ],
+        "reason": "Measures top of registration funnel"
+      },
+      {
+        "eventName": "Sign Up Completed",
+        "category": "Acquisition",
+        "priority": "must-have",
+        "triggerDescription": "User successfully creates a new Instagram account",
+        "suggestedProperties": [
+          "signup_method",
+          "time_taken_secs",
+          "referral_source"
+        ],
+        "reason": "Core acquisition event for new user growth"
+      },
+      {
+        "eventName": "Login Completed",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "User successfully logs into an existing account",
+        "suggestedProperties": [
+          "login_method",
+          "platform",
+          "is_returning_user"
+        ],
+        "reason": "Session start and identity resolution signal"
+      },
+      {
+        "eventName": "Onboarding Completed",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "User finishes profile setup and interest selection after sign up",
+        "suggestedProperties": [
+          "interests_selected",
+          "profile_photo_added",
+          "time_taken_secs"
+        ],
+        "reason": "Measures onboarding quality and setup depth"
+      },
+      {
+        "eventName": "Profile Photo Added",
+        "category": "Activation",
+        "priority": "recommended",
+        "triggerDescription": "User uploads or takes a profile picture during or after onboarding",
+        "suggestedProperties": [
+          "source",
+          "method"
+        ],
+        "reason": "Profile completeness signal linked to retention"
+      },
+      {
+        "eventName": "Follow Initiated",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "User taps the Follow button on any account",
+        "suggestedProperties": [
+          "followed_user_id",
+          "followed_user_type",
+          "source_surface"
+        ],
+        "reason": "Core social graph building event"
+      },
+      {
+        "eventName": "Follow Completed",
+        "category": "Activation",
+        "priority": "must-have",
+        "triggerDescription": "Follow action is confirmed for a public or private account",
+        "suggestedProperties": [
+          "followed_user_id",
+          "followed_user_type",
+          "account_type"
+        ],
+        "reason": "Tracks successful connections — key activation metric"
+      },
+      {
+        "eventName": "Unfollow Completed",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User unfollows an account",
+        "suggestedProperties": [
+          "unfollowed_user_type",
+          "source_surface"
+        ],
+        "reason": "Signals disengagement or content dissatisfaction"
+      },
+      {
+        "eventName": "Feed Viewed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User lands on and scrolls the home feed",
+        "suggestedProperties": [
+          "session_id",
+          "feed_type",
+          "posts_seen_count"
+        ],
+        "reason": "Primary daily engagement signal"
+      },
+      {
+        "eventName": "Post Viewed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User pauses on a post in any feed for more than 1 second",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "creator_id",
+          "source_feed",
+          "view_duration_secs"
+        ],
+        "reason": "Content consumption and ranking feedback signal"
+      },
+      {
+        "eventName": "Post Liked",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User taps the heart on any post",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "creator_id",
+          "source_feed"
+        ],
+        "reason": "Engagement signal used for feed ranking"
+      },
+      {
+        "eventName": "Post Saved",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User taps the bookmark icon on a post",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "creator_id",
+          "collection_name"
+        ],
+        "reason": "High-intent engagement — strong retention indicator"
+      },
+      {
+        "eventName": "Post Shared",
+        "category": "Referral",
+        "priority": "must-have",
+        "triggerDescription": "User taps the share icon on a post",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "share_destination",
+          "creator_id"
+        ],
+        "reason": "Viral distribution and reach signal"
+      },
+      {
+        "eventName": "Post Commented",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User submits a comment on a post",
+        "suggestedProperties": [
+          "post_id",
+          "post_type",
+          "creator_id",
+          "comment_length_chars"
+        ],
+        "reason": "Deep engagement signal correlated with retention"
+      },
+      {
+        "eventName": "Comment Liked",
+        "category": "Retention",
+        "priority": "nice-to-have",
+        "triggerDescription": "User likes a comment on a post",
+        "suggestedProperties": [
+          "post_id",
+          "comment_id",
+          "creator_id"
+        ],
+        "reason": "Secondary engagement depth signal"
+      },
+      {
+        "eventName": "Post Created",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User successfully publishes a new post to their profile or feed",
+        "suggestedProperties": [
+          "post_type",
+          "has_caption",
+          "hashtag_count",
+          "location_tagged",
+          "filter_used"
+        ],
+        "reason": "Creator activation and content supply signal"
+      },
+      {
+        "eventName": "Story Viewed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User watches one or more frames of a story",
+        "suggestedProperties": [
+          "story_id",
+          "creator_id",
+          "view_duration_secs",
+          "completed"
+        ],
+        "reason": "Stories consumption — key daily retention loop"
+      },
+      {
+        "eventName": "Story Posted",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User publishes a new story",
+        "suggestedProperties": [
+          "story_type",
+          "has_sticker",
+          "has_music",
+          "has_text",
+          "has_location"
+        ],
+        "reason": "Creator activity signal for stories supply health"
+      },
+      {
+        "eventName": "Story Replied",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User sends a reply to a story via DM",
+        "suggestedProperties": [
+          "story_id",
+          "creator_id",
+          "reply_type"
+        ],
+        "reason": "Measures stories-to-DM conversion and engagement depth"
+      },
+      {
+        "eventName": "Reel Viewed",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User watches a Reel in the Reels tab or feed",
+        "suggestedProperties": [
+          "reel_id",
+          "creator_id",
+          "view_duration_secs",
+          "completed",
+          "source_surface"
+        ],
+        "reason": "Video content consumption and ranking signal"
+      },
+      {
+        "eventName": "Reel Liked",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User likes a Reel",
+        "suggestedProperties": [
+          "reel_id",
+          "creator_id",
+          "source_surface"
+        ],
+        "reason": "Engagement signal for Reels discovery algorithm"
+      },
+      {
+        "eventName": "Reel Shared",
+        "category": "Referral",
+        "priority": "recommended",
+        "triggerDescription": "User shares a Reel to a story or via DM",
+        "suggestedProperties": [
+          "reel_id",
+          "creator_id",
+          "share_destination"
+        ],
+        "reason": "Reels virality and organic reach signal"
+      },
+      {
+        "eventName": "Reel Created",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User successfully publishes a new Reel",
+        "suggestedProperties": [
+          "duration_secs",
+          "has_audio",
+          "has_text",
+          "has_effects",
+          "draft_used"
+        ],
+        "reason": "Creator engagement in video format — supply signal"
+      },
+      {
+        "eventName": "Search Performed",
+        "category": "Activation",
+        "priority": "recommended",
+        "triggerDescription": "User submits a search query in the Explore or search bar",
+        "suggestedProperties": [
+          "query_length",
+          "result_type",
+          "result_count"
+        ],
+        "reason": "Discovery intent signal — used for content and user matching"
+      },
+      {
+        "eventName": "Explore Opened",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User navigates to the Explore tab",
+        "suggestedProperties": [
+          "session_id",
+          "source_surface"
+        ],
+        "reason": "Measures passive discovery behavior"
+      },
+      {
+        "eventName": "DM Sent",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User sends a direct message to one or more recipients",
+        "suggestedProperties": [
+          "message_type",
+          "recipient_type",
+          "is_group",
+          "has_media"
+        ],
+        "reason": "Core social connection signal — strong retention predictor"
+      },
+      {
+        "eventName": "DM Thread Opened",
+        "category": "Retention",
+        "priority": "recommended",
+        "triggerDescription": "User opens an existing or new DM conversation thread",
+        "suggestedProperties": [
+          "thread_type",
+          "is_new_thread",
+          "recipient_type"
+        ],
+        "reason": "Measures DM engagement and inbox activity"
+      },
+      {
+        "eventName": "Notification Received",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "A push notification is delivered to the user's device",
+        "suggestedProperties": [
+          "notification_type",
+          "campaign_id",
+          "is_personalized"
+        ],
+        "reason": "Reachability and delivery health signal"
+      },
+      {
+        "eventName": "Notification Tapped",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User taps a push notification to open the app",
+        "suggestedProperties": [
+          "notification_type",
+          "campaign_id",
+          "deep_link_destination"
+        ],
+        "reason": "Re-engagement attribution signal"
+      },
+      {
+        "eventName": "Ad Impression",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "A sponsored post or ad unit is displayed in the user's feed or stories",
+        "suggestedProperties": [
+          "ad_id",
+          "ad_format",
+          "placement",
+          "advertiser_id"
+        ],
+        "reason": "Ad delivery and inventory fill tracking"
+      },
+      {
+        "eventName": "Ad Clicked",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "User taps on an advertiser's ad unit",
+        "suggestedProperties": [
+          "ad_id",
+          "ad_format",
+          "placement",
+          "advertiser_id"
+        ],
+        "reason": "Ad CTR signal for campaign performance and billing"
+      },
+      {
+        "eventName": "Ad Skipped",
+        "category": "Revenue",
+        "priority": "recommended",
+        "triggerDescription": "User skips or swipes past an ad unit without engaging",
+        "suggestedProperties": [
+          "ad_id",
+          "ad_format",
+          "placement",
+          "time_seen_secs"
+        ],
+        "reason": "Ad fatigue and relevance signal"
+      },
+      {
+        "eventName": "Shopping Tag Tapped",
+        "category": "Revenue",
+        "priority": "recommended",
+        "triggerDescription": "User taps a product tag on a shoppable post",
+        "suggestedProperties": [
+          "post_id",
+          "product_id",
+          "creator_id",
+          "product_price"
+        ],
+        "reason": "Top-of-funnel signal for Instagram Shopping conversion"
+      },
+      {
+        "eventName": "Product Page Viewed",
+        "category": "Revenue",
+        "priority": "recommended",
+        "triggerDescription": "User views a product detail page via a shopping tag",
+        "suggestedProperties": [
+          "product_id",
+          "product_name",
+          "price",
+          "currency",
+          "creator_id"
+        ],
+        "reason": "Purchase intent signal within in-app shopping"
+      },
+      {
+        "eventName": "Checkout Started",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "User initiates the checkout flow for a tagged product",
+        "suggestedProperties": [
+          "product_id",
+          "product_name",
+          "price",
+          "currency"
+        ],
+        "reason": "Purchase funnel entry — critical revenue event"
+      },
+      {
+        "eventName": "Purchase Completed",
+        "category": "Revenue",
+        "priority": "must-have",
+        "triggerDescription": "User successfully completes a purchase via Instagram Shopping",
+        "suggestedProperties": [
+          "product_id",
+          "product_name",
+          "price",
+          "currency",
+          "transaction_id"
+        ],
+        "reason": "Core in-app commerce revenue event"
+      },
+      {
+        "eventName": "Account Settings Opened",
+        "category": "Retention",
+        "priority": "nice-to-have",
+        "triggerDescription": "User opens the Account Settings screen",
+        "suggestedProperties": [
+          "source_surface"
+        ],
+        "reason": "Feature discoverability and privacy-related behaviour signal"
+      },
+      {
+        "eventName": "Notification Settings Changed",
+        "category": "Retention",
+        "priority": "nice-to-have",
+        "triggerDescription": "User modifies notification preferences in settings",
+        "suggestedProperties": [
+          "notification_type",
+          "new_state"
+        ],
+        "reason": "Measures opt-out risk and notification preference shifts"
+      },
+      {
+        "eventName": "Account Deactivated",
+        "category": "Retention",
+        "priority": "must-have",
+        "triggerDescription": "User initiates account deactivation from settings",
+        "suggestedProperties": [
+          "reason_selected",
+          "time_since_signup_days"
+        ],
+        "reason": "Critical churn signal — triggers win-back campaign trigger"
+      }
+    ],
+    "createdAt": "2026-05-19T12:06:42.452Z",
+    "schemaVersion": 1
+  }
+]
