@@ -756,7 +756,11 @@ async function callAI(promptParts, maxTokensHint = 6000) {
   if (process.env.GROQ_API_KEY) {
     // Free-tier safe ceiling; bump GROQ_MAX_TOKENS on paid plans.
     const safeCeiling = parseInt(process.env.GROQ_MAX_TOKENS || '5000', 10);
-    const maxTokens = Math.min(safeCeiling, Math.max(800, maxTokensHint));
+    // Groq's free/on-demand tier caps input + output tokens per minute (TPM).
+    // Size the output so prompt + completion stays under GROQ_TPM_BUDGET.
+    const tpmBudget = parseInt(process.env.GROQ_TPM_BUDGET || '7500', 10);
+    const estInput  = Math.ceil(fullText.length / 4);
+    const maxTokens = Math.min(safeCeiling, Math.max(800, maxTokensHint), Math.max(1200, tpmBudget - estInput));
     console.log(`[AI] Using Groq (gpt-oss-120b, max_tokens=${maxTokens})`);
     const raw = await httpsPost({
       hostname: 'api.groq.com',

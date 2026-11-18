@@ -1,6 +1,18 @@
-# Event Recommendation Engine (CleverTap)
+<div align="center">
 
-> Scan a website URL or upload an Android APK — the engine analyses it and recommends the right CleverTap events, then helps you turn them into SDK code, journeys and campaigns.
+# ⚡ Event Recommendation Engine
+
+**Scan a website or upload an Android APK — get the right CleverTap events, SDK code, journeys and campaigns in minutes.**
+
+![Node](https://img.shields.io/badge/Node.js-18%2B-339933?logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
+![Puppeteer](https://img.shields.io/badge/Puppeteer-crawler-40B5A4?logo=puppeteer&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Claude%20%7C%20Groq%20%7C%20Gemini%20%7C%20OpenAI-8B5CF6)
+![CleverTap](https://img.shields.io/badge/CleverTap-event%20planning-EF5A4A)
+
+<img src="docs/screenshots/01-scan-results.png" alt="Scan results: vertical, summary and event counts" width="900">
+
+</div>
 
 ---
 
@@ -21,17 +33,36 @@ The page also includes static CleverTap integration notes (the reserved `Charged
 
 ---
 
-## Sample output (website scan: `www.zomato.com`)
+## 📸 See it in action
 
-**Header / summary**
-- Vertical: *Food Delivery & Restaurant Discovery Platform* (Consumer Food Delivery Marketplace); pages crawled: homepage, other, support
-- Site summary and an analytics insight (track the full ordering funnel, from restaurant discovery to post-delivery engagement, and use referral and loyalty events to drive repeat orders)
-- Counts: **10 Must Have · 14 Recommended · 11 Nice to Have · 35 total events**
+Below is a real scan of a food-delivery website. Every screen is produced by the app itself. A printable version is in [`docs/Sample-Output.pdf`](docs/Sample-Output.pdf).
 
-**Recommended events** (filter by All / Must Have / Recommended / Nice to Have; *Select Must-Have*, *Select All*, *Clear*). Each event shows its priority, category and reason, for example:
+### 1. Understands the business
+It crawls the site, infers the **business vertical**, writes a summary and an analytics insight, and sorts the recommendations into **Must Have / Recommended / Nice to Have** (see the banner above).
 
-| Event | Priority | Category |
-|---|---|---|
+### 2. Explains every event
+Each event comes with a priority, a lifecycle category (Acquisition, Activation, Retention, Revenue, Referral), a reason, **when to fire it** and **suggested properties**. Pick the ones you want, or use *Select Must-Have* / *Select All*.
+
+<img src="docs/screenshots/02-events.png" alt="Recommended events with when-to-fire and suggested properties" width="900">
+
+### 3. Builds journeys from your events
+Describe a goal, approve the channels (Push, Email, In-App, SMS, WhatsApp, Web Push) and get **two journey variants** — *Conservative* and *Aggressive* — with triggers, waits, sends and branches.
+
+<img src="docs/screenshots/03-journey-builder.png" alt="Journey Builder with two generated variants" width="900">
+
+### 4. Generates ready-to-paste SDK code and exports
+Copy the CleverTap SDK code for the events you selected, download them as **CSV**, or push them straight to a **Google Sheet**.
+
+<img src="docs/screenshots/04-sdk-code-export.png" alt="SDK code, CSV download and Google Sheet export" width="900">
+
+### 5. Adds the CleverTap know-how
+Integration notes (such as the reserved `Charged` event for revenue and LTV), the system events CleverTap tracks automatically, and the platform limits to design around.
+
+<img src="docs/screenshots/05-notes-system-events.png" alt="Integration notes, system events and platform limits" width="900">
+
+> 💡 The page also has a **Starter Campaign Playbook**: click *Generate Campaigns* to get AI-written strategies (trigger, timed message sequence, target segment and KPIs) tailored to the events you selected and to the channels that fit your site. APK scans additionally show the package, screens, permissions, SDKs, deep links and inferred features.
+
+---|---|---|
 | Page Viewed | Must Have | Acquisition |
 | Account Created, Login Completed | Must Have | Activation |
 | Session Started, Restaurant Viewed, Delivery Completed | Must Have | Retention |
